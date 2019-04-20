@@ -1,15 +1,2 @@
 server:
   port: 5001
-eureka:
-  instance:
-    hostname: peer1
-  client:
-    service-url:
-      defaultZone: http://peer2:5002/eureka,http://peer3:5003/eureka
-spring:
-  application:
-    name: spring-cloud-peer1
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: true
