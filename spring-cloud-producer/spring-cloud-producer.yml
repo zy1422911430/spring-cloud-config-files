@@ -1,0 +1,6 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:5001/eureka
+  instance:
+    hostname: helloProducer
