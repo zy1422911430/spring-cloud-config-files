@@ -9,7 +9,3 @@ eureka:
 spring:
   application:
     name: spring-cloud-peer1
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: true
